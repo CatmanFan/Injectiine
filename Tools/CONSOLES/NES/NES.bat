@@ -214,7 +214,7 @@ IF errorlevel 1 goto :DownloadingStuff
 
 :DownloadingStuff
 cls
-IF %BASEDECIDE%==6 GOTO:EnterBaseCode
+IF %BASEDECIDE%==3 GOTO:EnterBaseCode
 echo Testing Internet connection...
 C:\windows\system32\PING.EXE google.com
 if %errorlevel% GTR 0 goto:InternetSucks
